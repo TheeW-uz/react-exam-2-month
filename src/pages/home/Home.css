@@ -1,0 +1,320 @@
+.our-services {
+    width: 1320px;
+    height: 108px;
+    margin-top: 25px;
+    margin-left: 60px;
+    display: flex;
+    border: 1px solid #E4E7E9;
+    border-radius: 6px;
+    gap: 72px;
+
+    .delivery,
+    .refund,
+    .safe,
+    .live {
+        display: flex;
+
+        .delivery-box,
+        .refund-box,
+        .safe-box,
+        .live-box {
+            margin-top: 34px;
+            margin-left: 50px;
+            width: 40px;
+            height: 40px;
+            color: black;
+        }
+
+        .delivery-text,
+        .refund-text,
+        .live-text,
+        .safe-text {
+            margin-left: 16px;
+            margin-top: 32px;
+
+            .delivery-title,
+            .refund-title,
+            .safe-title,
+            .live-title {
+                font-size: 14px;
+                font-weight: 500;
+                font-family: Public Sans;
+                color: #191C1F;
+            }
+
+            .delivery-time,
+            .refund-time,
+            .safe-time,
+            .live-time {
+                font-size: 14px;
+                font-weight: 400;
+                font-family: Public Sans;
+                color: #5F6C72;
+                margin-top: 5px;
+            }
+        }
+    }
+}
+
+.brands {
+    display: flex;
+    gap: 63px;
+    margin-top: 28px;
+    margin-left: 64px;
+
+    .brand-1,
+    .brand-2,
+    .brand-3,
+    .brand-4,
+    .brand-5,
+    .brand-6 {
+        width: 168px;
+        height: 168px;
+        background-color: #F4F4F4;
+        border-radius: 16px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        img {
+            width: 109.36px;
+            height: 46px;
+        }
+    }
+}
+
+.deal {
+    margin-left: 60px;
+
+    .deal-addon {
+        display: flex;
+        margin-top: 36px;
+
+        .deal-title {
+            font-size: 34px;
+            font-weight: 800;
+            font-family: Lato;
+            color: #232321;
+        }
+
+        .deal-ends {
+            margin-left: 430px;
+            font-size: 18px;
+            font-weight: 600;
+            margin-top: 10px;
+            color: #000000;
+        }
+    }
+}
+
+.timer {
+    background-color: #FCBD01;
+    color: #000;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-size: 24px;
+    margin-left: 16px;
+}
+
+.deal-btn {
+    width: 129px;
+    height: 48px;
+    border-radius: 8px;
+    background-color: #FCBD01;
+    border: none;
+    color: black;
+    font-size: 14px;
+    font-weight: 500;
+    margin-left: 20px;
+}
+
+.deal-container {
+    display: flex;
+    gap: 16px;
+    margin-top: 40px;
+    margin-left: 60px;
+
+    .deal-div {
+        width: 318px;
+
+        .deal-img-div {
+            width: 302px;
+            height: 335px;
+            margin-left: 8px;
+            margin-top: 8px;
+            background-color: #FAFAFA;
+
+            img {
+                width: 204px;
+                height: 266px;
+                margin-top: 42px;
+                margin-left: 58px;
+            }
+        }
+
+        .deal-end {
+            font-size: 12px;
+            font-weight: 400;
+            color: #397CFF;
+            margin-top: 7px;
+        }
+    }
+}
+
+.deal-product-title {
+    font-size: 23px;
+    font-weight: 800;
+    font-family: Lato;
+    color: #232321;
+    margin-top: 8px;
+    width: 320px;
+}
+
+.deal-price-btn {
+    width: 318px;
+    height: 48px;
+    margin-top: 16px;
+    border-radius: 8px;
+    border: none;
+    background-color: #232321;
+    font-size: 14px;
+    color: white;
+    font-weight: 500;
+}
+
+.top-categories {
+    margin-top: 55px;
+    margin-left: 60px;
+
+    .top-addon {
+        display: flex;
+        gap: 780px;
+
+        .top-title {
+            font-size: 34px;
+            font-weight: 800;
+            font-family: Lato;
+            color: #232321;
+        }
+
+        .top-btn {
+            width: 111px;
+            height: 41px;
+            border: none;
+            border-radius: 7px;
+            background-color: #FCBD01;
+            font-size: 15px;
+            font-weight: 800;
+            color: #0A0A0A;
+        }
+    }
+}
+
+.top-container {
+    display: flex;
+    gap: 50px;
+    margin-top: 53px;
+    margin-left: 60px;
+
+    .top-div-img {
+        width: 142px;
+        height: 142px;
+        border-radius: 50%;
+        background-color: #F5F5F5;
+        box-shadow: 0 2.2px 5.5px 0 #0000000D;
+    }
+
+    .top-product-name {
+        font-size: 17.6px;
+        font-weight: 700;
+        font-family: Lato;
+        color: #222222;
+        margin-top: 22px;
+        margin-left: 44px;
+    }
+}
+
+.top-div-1,
+.top-div-2 {
+    img {
+        margin-top: 19px;
+        margin-left: 44px;
+    }
+}
+
+.top-div-5 {
+    img {
+        margin-top: 22px;
+        margin-left: 22px;
+    }
+}
+
+.electronic {
+    margin-left: 68px;
+    margin-top: 45px;
+
+    .electronic-title {
+        font-size: 34px;
+        font-weight: 800;
+        font-family: Lato;
+        color: #232321;
+    }
+
+    .electronic-container {
+        display: flex;
+        gap: 18px;
+
+        .electronic-1,
+        .electronic-2,
+        .electronic-3 {
+            width: 425px;
+            height: 226px;
+            border-radius: 18px;
+            background-color: #313131;
+            display: flex;
+            margin-top: 50px;
+        }
+    }
+}
+
+.apple-logo {
+    width: 67px;
+    height: 67px;
+    margin-top: 22px;
+    margin-left: 22px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 18px;
+
+    .apple-icon {
+        width: 24px;
+        height: 24px;
+        color: black;
+    }
+}
+
+.electronic-discount {
+    margin-top: 22px;
+    margin-left: 22px;
+    font-size: 26px;
+    font-weight: 600;
+    color: white;
+    font-family: Lato;
+}
+
+.electronic-img {
+    margin-left: 80px;
+    width: 113px !important;
+    height: 202px !important;
+    margin-top: 55px;
+}
+
+.electronic-2 {
+    background-color: #F6DE8D !important;
+}
+
+.electronic-3 {
+    background-color: #FFD1B0 !important;
+}

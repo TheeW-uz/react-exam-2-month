@@ -1,0 +1,152 @@
+.login-container {
+    display: flex;
+    margin-top: 20px;
+    margin-left: 112px;
+
+    .login-text {
+        .welcome {
+            font-size: 60px;
+            font-weight: 800;
+            color: #000000;
+            font-family: Lato;
+        }
+        
+        .login-img {
+            width: 728px;
+            height: 728px;
+        }
+
+        .first-time {
+            font-size: 24px;
+            font-weight: 400;
+            color: #00000099;
+            margin-left: 200px;
+        }
+
+        .sign-up {
+            font-size: 24px;
+            font-weight: 400;
+            color: #000000;
+            margin-left: 5px;
+        }
+    }
+    
+    form {
+        margin-left: 50px;
+        display: flex;
+        flex-direction: column;
+
+        .fullName-label {
+            font-size: 24px;
+            font-weight: 800;
+            font-family: Lato;
+            color: black;
+            margin-top: 30px;
+        }
+
+        .fullName {
+            width: 507px;
+            height: 79px;
+            border-radius: 15px;
+            outline: none;
+            padding-left: 30px;
+            font-size: 24px;
+            font-weight: 400;
+            color: #00000099;
+            background-color: #0000000D;
+            border: none;
+            margin-top: 12px;
+        }
+
+        .email-label {
+            font-size: 24px;
+            font-weight: 800;
+            font-family: Lato;
+            color: black;
+            margin-top: 30px;
+        }
+
+        .email {
+            width: 507px;
+            height: 79px;
+            border-radius: 15px;
+            outline: none;
+            padding-left: 30px;
+            font-size: 24px;
+            font-weight: 400;
+            color: #00000099;
+            background-color: #0000000D;
+            border: none;
+            margin-top: 12px;
+        }
+
+        .password-label {
+            font-size: 24px;
+            font-weight: 800;
+            font-family: Lato;
+            color: black;
+            margin-top: 30px;
+        }
+
+        .password {
+            width: 507px;
+            height: 79px;
+            border-radius: 15px;
+            outline: none;
+            padding-left: 30px;
+            font-size: 24px;
+            font-weight: 400;
+            color: #00000099;
+            background-color: #0000000D;
+            border: none;
+            margin-top: 12px;
+        }
+
+        .form-btn {
+            width: 507px;
+            height: 87px;
+            border-radius: 15px;
+            background-color: #000000;
+            font-size: 24px;
+            font-weight: 500;
+            font-family: Lato;
+            color: white;
+            border: none;
+            margin-top: 30px;
+            cursor: pointer;
+        }
+
+        .google {
+            width: 507px;
+            height: 87px;
+            background-color: transparent;
+            border: 1.5px solid #0000004D;
+            margin-top: 45px;
+            justify-content: center;
+            align-items: center;
+            display: flex;
+            font-size: 24px;
+            font-weight: 500;
+            font-family: Lato;
+            color: #000000;
+            border-radius: 15px;
+            cursor: pointer;
+        }
+
+        .facebook {
+            width: 507px;
+            height: 87px;
+            border-radius: 15px;
+            border: none;
+            background-color: #1877F2;
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 24px;
+            font-weight: 400;
+            margin-top: 30px;
+            cursor: pointer;
+        }
+    }
+}

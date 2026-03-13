@@ -1,0 +1,132 @@
+footer {
+    width: 1440px;
+    height: 303px;
+    background-color: #191C1F;
+    margin-top: 50px;
+    display: flex;
+}
+
+.footer-1 {
+    margin-top: 70px;
+    margin-left: 270px;
+
+    .footer-main {
+        font-size: 24px;
+        font-weight: 700;
+        font-family: Public Sans;
+        color: #FFFFFF;
+    }
+
+    .support {
+        font-size: 10.5px;
+        font-weight: 400;
+        color: #77878F;
+        margin-top: 18px;
+    }
+
+    .number {
+        font-size: 13.5px;
+        font-weight: 500;
+        font-family: Public Sans;
+        color: white;
+        margin-top: 4px;
+    }
+
+    .address {
+        font-size: 12px;
+        font-weight: 400;
+        margin-top: 9px;
+        line-height: 18px;
+        color: #ADB7BC;
+    }
+
+    .info {
+        margin-top: 10px;
+        font-size: 12px;
+        font-weight: 500;
+        font-family: Public Sans;
+        color: white;
+    }
+}
+
+.footer-2 {
+    margin-left: 80px;
+    margin-top: 80px;
+
+    .footer-top {
+        font-size: 12px;
+        font-weight: 500;
+        font-family: Public Sans;
+        color: #FFFFFF;
+    }
+
+    .footer-2-p {
+        font-size: 10.5px;
+        font-weight: 500;
+        font-family: Public Sans;
+        color: #929FA5;
+        margin-top: 10px;
+    }
+}
+
+.footer-3 {
+    margin-left: 80px;
+    margin-top: 80px;
+
+    .footer-top {
+        font-size: 12px;
+        font-weight: 500;
+        font-family: Public Sans;
+        color: #FFFFFF;
+    }
+
+    p {
+        font-size: 10.5px;
+        font-weight: 500;
+        font-family: Public Sans;
+        color: #929FA5;
+        margin-top: 10px;
+    }
+}
+
+.footer-4 {
+    margin-top: 80px;
+    margin-left: 90px;
+
+    h1 {
+        font-size: 12px;
+        font-weight: 500;
+        font-family: Public Sans;
+        color: #929FA5;
+    }
+
+    .play-market {
+        width: 132px;
+        height: 52px;
+        margin-top: 14px;
+        border-radius: 3px;
+        border: none;
+        background-color: #303639;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+
+    }
+
+    .app-store {
+        width: 132px;
+        height: 52px;
+        margin-top: 14px;
+        border-radius: 3px;
+        border: none;
+        background-color: #303639;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+.market-icon {
+    font-size: 24px;
+}

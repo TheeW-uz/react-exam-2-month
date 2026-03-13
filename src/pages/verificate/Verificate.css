@@ -1,0 +1,73 @@
+.verificate-extra {
+    .sent {
+        font-size: 43px;
+        font-weight: 800;
+        font-family: Lato;
+        color: #333333;
+    }
+
+    .number {
+        font-size: 20px;
+        margin-top: 19px;
+        font-weight: 400;
+        color: #333333;
+    }
+}
+
+.code-box {
+    display: flex;
+    gap: 11px;
+    margin-top: 37px;
+
+    .code-1,
+    .code-2,
+    .code-3,
+    .code-4,
+    .code-5,
+    .code-6 {
+        width: 75px;
+        height: 86px;
+        border-radius: 19px;
+        background-color: #F2F2F2;
+        border: 1.5px solid #E7EAEB;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 24px;
+        font-weight: 800;
+        padding-left: 30px;
+    }
+
+    .code1 {
+        border: 1.5px solid #0C59B6;
+    }
+}
+
+.get-code {
+    display: flex;
+    margin-top: 34px;
+
+    .code {
+        font-size: 25px;
+        font-weight: 600;
+        color: #333333;
+    }
+
+    Link {
+        font-size: 25px;
+        font-weight: 600;
+    }
+}
+
+.verificate-btn {
+    width: 507px;
+    height: 87px;
+    margin-top: 50px;
+    border: none;
+    border-radius: 15px;
+    background-color: #000000;
+    color: white;
+    font-size: 24px;
+    font-weight: 500;
+    cursor: pointer;
+}

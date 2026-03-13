@@ -1,0 +1,68 @@
+#app {
+  height: 100%;
+}
+
+html,
+body {
+  position: relative;
+  height: 100%;
+}
+
+body {
+  font-size: 14px;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+}
+
+.swiper {
+  width: 1407px;
+  height: 345px;
+}
+
+.swiper-slide {
+  background: #0C59B6;
+  display: flex;
+}
+
+SwiperSlide {
+  width: 1407px;
+  height: 345px;
+  display: flex;
+}
+
+.swiper-text {
+  display: flex;
+  flex-direction: column;
+  margin-left: 98px;
+  margin-top: 44px;
+
+  .swiper-title {
+    font-size: 32px;
+    font-weight: 600;
+    font-family: "Lato";
+    color: #FFFFFF;
+  }
+
+  .swiper-intro {
+    font-size: 60px;
+    font-weight: 700;
+    font-family: Lato;
+    color: white;
+    margin-top: 22px;
+  }
+
+  .swiper-discount {
+    font-size: 32px;
+    font-weight: 600;
+    font-family: Lato;
+    color: white;
+    margin-top: 22px;
+  }
+}
+
+.swiper-img {
+  width: 590px;
+  height: 332px;
+  margin-left: 50px;
+}
