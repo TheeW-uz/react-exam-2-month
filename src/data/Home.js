@@ -28,3 +28,5 @@ export const products = [
     flashDealEnds: "Flash Deal Ends in 5 Hours !",
   },
 ];
+
+export default products

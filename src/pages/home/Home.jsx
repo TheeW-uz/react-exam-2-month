@@ -26,6 +26,7 @@ import electronicImg1 from '../../../public/electronic-img-1.png'
 import electronicImg2 from '../../../public/electronic-img-2.png'
 import electronicImg3 from '../../../public/electronic-img-3.png'
 import Footer from '../../components/footer/Footer.jsx'
+import { Link } from "react-router-dom";
 
 const Home = () => {
   return (
@@ -106,7 +107,9 @@ const Home = () => {
           {products.map((product) => (
             <div className="deal-div">
               <div className="deal-img-div">
-                <img className='deal-img' src={product.image} alt="img" />
+                <Link to={`/products/${product.id}`}>
+                  <img className='deal-img' src={product.image} alt="img" />
+                </Link>
               </div>
 
               <p className='deal-end'>{product.flashDealEnds}</p>
