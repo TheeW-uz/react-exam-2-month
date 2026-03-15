@@ -1,6 +1,5 @@
 import React from 'react'
 import './Home.css'
-import Header from '../../components/header/Header.jsx'
 import SwiperComponent from '../../components/swiper/SwiperComponent'
 import { BsBoxSeam } from "react-icons/bs";
 import './Home.css'
@@ -27,6 +26,7 @@ import electronicImg2 from '../../../public/electronic-img-2.png'
 import electronicImg3 from '../../../public/electronic-img-3.png'
 import Footer from '../../components/footer/Footer.jsx'
 import { Link } from "react-router-dom";
+import Header from '../../components/header/Header.jsx'
 
 const Home = () => {
   return (
@@ -98,7 +98,7 @@ const Home = () => {
           <p className='deal-title'>Today’s Deals of the day</p>
           <p className='deal-ends'>Deal ends in</p>
 
-          <div id="timer" class="timer">16d : 21h : 57m : 23s</div>
+          <div id="timer" className="timer">16d : 21h : 57m : 23s</div>
 
           <button className='deal-btn'>VIEW ALL</button>
         </div>

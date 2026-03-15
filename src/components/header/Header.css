@@ -197,7 +197,7 @@ nav {
         }
 
         .link-icons {
-            color: white;
+            color: white; 
         }
     }
 
@@ -228,4 +228,126 @@ nav {
     .nav-link-8 {
         width: 194px;
     }
+}
+
+.nav > div {
+    position: relative;
+}
+
+.dropdown {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: white;
+    min-width: 160px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+    display: flex;
+    flex-direction: column;
+    padding: 5px 0;
+    opacity: 0;
+    transform: translateY(10px);
+    transition: all 0.25s ease;
+    z-index: 999;
+}
+
+.nav > div:hover .dropdown,
+.nav > div .dropdown:focus-within {
+    opacity: 1;
+    transform: translateY(0);
+    pointer-events: auto;
+}
+
+.dropdown a {
+    display: block;
+    padding: 10px 15px;
+    margin: 2px 0;
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+    font-weight: 500;
+    border-radius: 4px;
+    transition: background 0.2s ease;
+}
+
+.dropdown a:hover {
+    background-color: #b4b0b0;
+    border-radius: 4px;
+}
+
+.nav-link-2 .dropdown {
+    min-width: 180px;
+}
+
+.nav-link-3 .dropdown {
+    min-width: 200px;
+}
+
+.nav-link-4 .dropdown {
+    min-width: 140px;
+}
+
+.nav-link-5 .dropdown {
+    min-width: 160px;
+}
+
+.nav-link-6 .dropdown {
+    min-width: 130px;
+}
+
+.nav-link-7 .dropdown {
+    min-width: 220px;
+}
+
+.nav-link-8 .dropdown {
+    min-width: 250px;
+}
+
+.nav > div:hover .link-icon {
+    transform: rotate(180deg);
+    transition: transform 0.25s ease;
+}
+
+.dropdown-item {
+    position: relative;
+}
+
+.submenu {
+    position: absolute;
+    top: 0;
+    left: 100%;
+    background-color: white;
+    min-width: 180px;
+    padding: 5px 0;
+    border-radius: 6px;
+    opacity: 0;
+    pointer-events: none;
+    transform: translateX(10px);
+    transition: all 0.25s ease;
+    z-index: 999;
+}
+
+.dropdown-item:hover .submenu {
+    opacity: 1;
+    pointer-events: auto;
+    transform: translateX(0);
+}
+
+.submenu-left {
+    left: auto;
+    right: 100%;
+    transform: translateX(-10px);
+}
+
+.submenu a {
+    display: block;
+    padding: 8px 15px;
+    font-size: 14px;
+    color: black;
+    text-decoration: none;
+}
+
+.submenu a:hover {
+    background-color: #cac8c8;
+    border-radius: 4px;
 }
